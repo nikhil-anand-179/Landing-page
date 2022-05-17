@@ -1,0 +1,37 @@
+body{
+    background-color: #1F2937;
+    display:flex;
+}
+
+button{
+    background-color: #008CBA;
+}
+
+/* .header{
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
