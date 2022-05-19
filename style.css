@@ -156,6 +156,7 @@ main .subtext{
    /* align-items: center; */
    /* justify-content: center; */
    padding: 5em 13em;
+   
 }
 
 .container{
@@ -165,7 +166,7 @@ main .subtext{
    background-color: #3882F6;
    width: 100%;
    padding: 50px;
-   border radius: 10px;
+   border-radius: 25px;
 }
 
 .container button{
