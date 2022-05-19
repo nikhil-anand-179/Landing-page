@@ -8,17 +8,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Header Logo</h1>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-    </div>    
-    <div class="container">
-        <div class="title">This Website is Awesome</div>
-        <div class="subtext">This website has some subtext that goes here under the main title. It is smaller with lower contrast</div>
-        <button class="signup" href="#">Sign up</button>
-        <img src="#" alt="This is a placeholder for image">
-    </div>    
+    <header>
+        <div class="nav">
+            <div class="left">
+                <p id="logo">Header Logo</p>  
+            </div>    
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li> 
+                    <li><a href="#">About us</a></li> 
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>      
+        </div>  
+
+        <div class="welcome">
+            <div class="left">
+                <h1 class="hero">This Website is Awesome</h1>
+                <p class="subtext">This website has some subtext that goes here under the main title. It is smaller with lower contrast</p>
+                <button class="subtext">Sign up</button>
+            </div> 
+            <div class="right">
+                <div class="image">
+                    <p class="subtext">This is a placeholder for image</p>
+                </div>    
+             </div>    
+        </div> 
+    </header>  
+
+    <main>
+        <h2>Some random information</h2>
+        <div class="card-container subtext">
+            <div class="card">
+                <div class="square"></div>
+                     <p class="subtext">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="square"></div>
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="square"></div>
+                    <p class="subtext">this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="square"></div>
+                     <p class="subtext">this is some subtext under an illustration or image</p>
+            </div>
+        </div>    
+    </main>
+
+    <div class="quote">
+        <em>This is an inspiring quote, or a testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it
+            looks nice.</em>
+        <p>- Thor, God of Thunder</p>
+    </div>
+    <div class="signup">
+        <div class="container">
+            <div class="left">
+                <h2>Call to action! It's time!</h2>
+                <p class="subtext">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="right">
+                <button class="subtext">Sign up</button>
+            </div>  
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy; The Odin Project 2021
+    </footer>
 </body>
 </html>
